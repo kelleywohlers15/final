@@ -24,6 +24,9 @@ namespace AbandonedHouse
 
         private void button1_Click(object sender, EventArgs e)
         {
+            new GettingIn().Show();
+            this.Visible = false;
+           
 
         }
     }

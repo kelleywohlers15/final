@@ -45,17 +45,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Escaping.cs">
+    <Compile Include="EscapingHome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Escaping.Designer.cs">
-      <DependentUpon>Escaping.cs</DependentUpon>
+    <Compile Include="EscapingHome.Designer.cs">
+      <DependentUpon>EscapingHome.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GettingIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GettingIn.Designer.cs">
+      <DependentUpon>GettingIn.cs</DependentUpon>
     </Compile>
     <Compile Include="Hiding.cs">
       <SubType>Form</SubType>
@@ -65,11 +71,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Escaping.resx">
-      <DependentUpon>Escaping.cs</DependentUpon>
+    <EmbeddedResource Include="EscapingHome.resx">
+      <DependentUpon>EscapingHome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GettingIn.resx">
+      <DependentUpon>GettingIn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hiding.resx">
       <DependentUpon>Hiding.cs</DependentUpon>

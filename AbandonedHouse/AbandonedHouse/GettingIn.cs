@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace AbandonedHouse
 {
-    public partial class Escaping : Form
+    public partial class GettingIn: Form
     {
-        public Escaping()
+        public GettingIn()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            new Hiding().Show();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
