@@ -71,6 +71,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchingForLight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchingForLight.Designer.cs">
+      <DependentUpon>SearchingForLight.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="EscapingHome.resx">
       <DependentUpon>EscapingHome.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +98,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SearchingForLight.resx">
+      <DependentUpon>SearchingForLight.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

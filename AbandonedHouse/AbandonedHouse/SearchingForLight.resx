@@ -117,13 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>You got out of the house next, while you are walking 
-on the street to the house you see a cop car coming 
-towards you and you have to quick decide what to do.
-You have to either duck and hide behind a parked car 
-on the side of the road or do you keep walking like you 
-dont see them. WHICH DO YOU DO?
-</value>
-  </data>
 </root>

@@ -29,5 +29,10 @@ namespace AbandonedHouse
            
 
         }
+
+        private void Hiding_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

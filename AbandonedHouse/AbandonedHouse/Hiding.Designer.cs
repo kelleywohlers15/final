@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Hiding));
             this.btn_GettingIn = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -35,7 +36,7 @@
             // 
             // btn_GettingIn
             // 
-            this.btn_GettingIn.Location = new System.Drawing.Point(122, 280);
+            this.btn_GettingIn.Location = new System.Drawing.Point(320, 296);
             this.btn_GettingIn.Name = "btn_GettingIn";
             this.btn_GettingIn.Size = new System.Drawing.Size(135, 23);
             this.btn_GettingIn.TabIndex = 1;
@@ -45,7 +46,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(278, 280);
+            this.button2.Location = new System.Drawing.Point(123, 296);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(168, 23);
             this.button2.TabIndex = 2;
@@ -55,13 +56,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(148, 194);
+            this.label1.Location = new System.Drawing.Point(141, 133);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(322, 39);
+            this.label1.Size = new System.Drawing.Size(268, 78);
             this.label1.TabIndex = 3;
-            this.label1.Text = "You got out! While walking to the house you see a cop \r\ncar coming towards you an" +
-    "d you have to quick decide what to do. \r\nDO YOU\r\n";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.Text = resources.GetString("label1.Text");
             // 
             // Hiding
             // 
@@ -73,6 +72,7 @@
             this.Controls.Add(this.btn_GettingIn);
             this.Name = "Hiding";
             this.Text = "Hiding";
+            this.Load += new System.EventHandler(this.Hiding_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

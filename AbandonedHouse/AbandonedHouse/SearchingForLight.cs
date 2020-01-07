@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace AbandonedHouse
 {
-    public partial class GettingIn: Form
+    public partial class SearchingForLight : Form
     {
-        public GettingIn()
+        public SearchingForLight()
         {
             InitializeComponent();
-        }
-
-        private void btn_GettingIn_Click(object sender, EventArgs e)
-        {
-            new SearchingForLight().Show();
-            this.Visible = false;
-
         }
     }
 }
