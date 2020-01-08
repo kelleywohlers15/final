@@ -17,19 +17,9 @@ namespace AbondonedHouse_SearchingForm4
             InitializeComponent();
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void FindingLight_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+           
         }
 
         private void btn_Light1_Click(object sender, EventArgs e)
@@ -39,7 +29,8 @@ namespace AbondonedHouse_SearchingForm4
 
         private void btn_Light2_Click(object sender, EventArgs e)
         {
-
+            new LocationInHouse().Show();
+            this.Visible = false;
         }
     }
 }

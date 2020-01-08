@@ -45,17 +45,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FindingLight.cs">
+    <Compile Include="DecidingToLeave.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FindingLight.Designer.cs">
-      <DependentUpon>FindingLight.cs</DependentUpon>
+    <Compile Include="DecidingToLeave.Designer.cs">
+      <DependentUpon>DecidingToLeave.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LocationInHouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocationInHouse.Designer.cs">
+      <DependentUpon>LocationInHouse.cs</DependentUpon>
     </Compile>
     <Compile Include="LocationInTheHouse.cs">
       <SubType>Form</SubType>
@@ -71,11 +77,14 @@
     <Compile Include="TalkOrLeave.Designer.cs">
       <DependentUpon>TalkOrLeave.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FindingLight.resx">
-      <DependentUpon>FindingLight.cs</DependentUpon>
+    <EmbeddedResource Include="DecidingToLeave.resx">
+      <DependentUpon>DecidingToLeave.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocationInHouse.resx">
+      <DependentUpon>LocationInHouse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LocationInTheHouse.resx">
       <DependentUpon>LocationInTheHouse.cs</DependentUpon>

@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace AbondonedHouse_SearchingForm4
 {
-    public partial class Exploring : Form
+    public partial class LocationInHouse : Form
     {
-        public Exploring()
+        public LocationInHouse()
         {
             InitializeComponent();
+        }
+
+        private void btn_Clear_Click(object sender, EventArgs e)
+        {
+            new DecidingToLeave().Show();
+            this.Visible = false; 
         }
     }
 }

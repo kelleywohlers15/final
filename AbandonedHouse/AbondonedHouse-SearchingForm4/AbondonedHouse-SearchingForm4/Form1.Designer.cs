@@ -35,32 +35,32 @@
             // 
             // btn_Light1
             // 
-            this.btn_Light1.Location = new System.Drawing.Point(64, 165);
+            this.btn_Light1.Location = new System.Drawing.Point(104, 165);
             this.btn_Light1.Name = "btn_Light1";
             this.btn_Light1.Size = new System.Drawing.Size(152, 62);
             this.btn_Light1.TabIndex = 0;
-            this.btn_Light1.Text = "Look for Flashlights";
+            this.btn_Light1.Text = "split up and explore";
             this.btn_Light1.UseVisualStyleBackColor = true;
             this.btn_Light1.Click += new System.EventHandler(this.btn_Light1_Click);
             // 
             // btn_Light2
             // 
-            this.btn_Light2.Location = new System.Drawing.Point(495, 165);
+            this.btn_Light2.Location = new System.Drawing.Point(447, 165);
             this.btn_Light2.Name = "btn_Light2";
             this.btn_Light2.Size = new System.Drawing.Size(161, 62);
             this.btn_Light2.TabIndex = 1;
-            this.btn_Light2.Text = "Use very little phone light ";
+            this.btn_Light2.Text = "stay together and explore";
             this.btn_Light2.UseVisualStyleBackColor = true;
             this.btn_Light2.Click += new System.EventHandler(this.btn_Light2_Click);
             // 
             // lbl_Choose
             // 
             this.lbl_Choose.AutoSize = true;
-            this.lbl_Choose.Location = new System.Drawing.Point(280, 50);
+            this.lbl_Choose.Location = new System.Drawing.Point(240, 100);
             this.lbl_Choose.Name = "lbl_Choose";
-            this.lbl_Choose.Size = new System.Drawing.Size(166, 13);
+            this.lbl_Choose.Size = new System.Drawing.Size(209, 13);
             this.lbl_Choose.TabIndex = 4;
-            this.lbl_Choose.Text = "You got in! What do you choose?";
+            this.lbl_Choose.Text = "You are fine with little phone light. do you...";
             // 
             // FindingLight
             // 
@@ -71,7 +71,8 @@
             this.Controls.Add(this.btn_Light2);
             this.Controls.Add(this.btn_Light1);
             this.Name = "FindingLight";
-            this.Text = "FindingLight";
+            this.Text = "ExploringTogether";
+            this.Load += new System.EventHandler(this.FindingLight_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
