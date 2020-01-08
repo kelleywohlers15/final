@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace AbandonedHouse
 {
-    public partial class start : Form
+    public partial class EscapingHome : Form
     {
-        public start()
+        public EscapingHome()
         {
             InitializeComponent();
         }
 
-        private void btn_Escaping_Click(object sender, EventArgs e)
+        private void btn_escaping_Click(object sender, EventArgs e)
         {
-            new EscapingHome().Show();
+            new Hiding().Show();
             this.Visible = false;
         }
     }
