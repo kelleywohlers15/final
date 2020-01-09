@@ -57,6 +57,12 @@
     <Compile Include="EscapingHome.Designer.cs">
       <DependentUpon>EscapingHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="ExploringTogether.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExploringTogether.Designer.cs">
+      <DependentUpon>ExploringTogether.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +100,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EscapingHome.resx">
       <DependentUpon>EscapingHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExploringTogether.resx">
+      <DependentUpon>ExploringTogether.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
