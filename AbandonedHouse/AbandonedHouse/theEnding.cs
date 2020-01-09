@@ -8,19 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AbondonedHouse_SearchingForm4
+namespace AbandonedHouse
 {
-    public partial class LocationInHouse : Form
+    public partial class theEnding : Form
     {
-        public LocationInHouse()
+        public theEnding()
         {
             InitializeComponent();
         }
 
-        private void btn_Clear_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            new DecidingToLeave().Show();
-            this.Visible = false; 
+            
+            this.Visible= false;
         }
     }
 }
