@@ -51,6 +51,7 @@
             this.btn_Split.TabIndex = 1;
             this.btn_Split.Text = "Split up and explore";
             this.btn_Split.UseVisualStyleBackColor = true;
+            this.btn_Split.Click += new System.EventHandler(this.btn_Split_Click);
             // 
             // lbl_PhoneLight
             // 

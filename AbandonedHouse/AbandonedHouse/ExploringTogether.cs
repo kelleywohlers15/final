@@ -22,5 +22,10 @@ namespace AbandonedHouse
             new LocationInHouse().Show();
             this.Visible = false;
         }
+
+        private void btn_Split_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
