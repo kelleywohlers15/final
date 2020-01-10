@@ -87,6 +87,11 @@
     <Compile Include="LocationInHouse.Designer.cs">
       <DependentUpon>LocationInHouse.cs</DependentUpon>
     </Compile>
+
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearchingForLight.cs">
@@ -95,6 +100,14 @@
     <Compile Include="SearchingForLight.Designer.cs">
       <DependentUpon>SearchingForLight.cs</DependentUpon>
     </Compile>
+
+    <Compile Include="theEnding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="theEnding.Designer.cs">
+      <DependentUpon>theEnding.cs</DependentUpon>
+    </Compile>
+
     <EmbeddedResource Include="DecidingToLeave.resx">
       <DependentUpon>DecidingToLeave.cs</DependentUpon>
     </EmbeddedResource>
@@ -116,6 +129,15 @@
     <EmbeddedResource Include="LocationInHouse.resx">
       <DependentUpon>LocationInHouse.cs</DependentUpon>
     </EmbeddedResource>
+
+    <EmbeddedResource Include="obj\Debug\AbandonedHouse.EscapingHome.resources" />
+    <EmbeddedResource Include="obj\Debug\AbandonedHouse.GettingIn.resources" />
+    <EmbeddedResource Include="obj\Debug\AbandonedHouse.Hiding.resources" />
+    <EmbeddedResource Include="obj\Debug\AbandonedHouse.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Debug\AbandonedHouse.SearchingForLight.resources" />
+    <EmbeddedResource Include="obj\Debug\AbandonedHouse.start.resources" />
+    <EmbeddedResource Include="obj\Debug\AbandonedHouse.theEnding.resources" />
+
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -128,6 +150,15 @@
     <EmbeddedResource Include="SearchingForLight.resx">
       <DependentUpon>SearchingForLight.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="theEnding.resx">
+      <DependentUpon>theEnding.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="bin\Debug\AbandonedHouse.exe.config" />
+    <None Include="obj\Debug\AbandonedHouse.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\AbandonedHouse.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\AbandonedHouse.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -140,6 +171,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\AbandonedHouse.exe" />
+    <Content Include="obj\Debug\AbandonedHouse.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\AbandonedHouse.exe" />
+    <Content Include="obj\Debug\AbandonedHouse.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
