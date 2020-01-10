@@ -19,7 +19,7 @@ namespace AbandonedHouse
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            new start().Show();
             this.Visible= false;
         }
     }
