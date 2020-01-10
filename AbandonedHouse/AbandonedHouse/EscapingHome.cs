@@ -22,5 +22,11 @@ namespace AbandonedHouse
             new Hiding().Show();
             this.Visible = false;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new theEnding().Show();
+            this.Visible = false;
+        }
     }
 }

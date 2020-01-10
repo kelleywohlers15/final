@@ -62,6 +62,7 @@
             this.btn_basement.TabIndex = 3;
             this.btn_basement.Text = "Go explore the basement ";
             this.btn_basement.UseVisualStyleBackColor = true;
+            this.btn_basement.Click += new System.EventHandler(this.btn_basement_Click);
             // 
             // LocationInHouse
             // 
