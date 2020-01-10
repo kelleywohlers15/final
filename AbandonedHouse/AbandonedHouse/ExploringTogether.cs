@@ -10,23 +10,22 @@ using System.Windows.Forms;
 
 namespace AbandonedHouse
 {
-    public partial class SearchingForLight : Form
+    public partial class ExploringTogether : Form
     {
-        public SearchingForLight()
+        public ExploringTogether()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btn_Stay_Click(object sender, EventArgs e)
         {
             new LocationInHouse().Show();
             this.Visible = false;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btn_Split_Click(object sender, EventArgs e)
         {
-            new theEnding().Show();
-            this.Visible = false;
+
         }
     }
 }
