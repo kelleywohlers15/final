@@ -16,5 +16,11 @@ namespace AbandonedHouse
         {
             InitializeComponent();
         }
+
+        private void btn_Talk_Click(object sender, EventArgs e)
+        {
+            new theEnding().Show();
+            this.Visible = false;
+        }
     }
 }

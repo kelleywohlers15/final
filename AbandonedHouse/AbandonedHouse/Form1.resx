@@ -118,10 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Your mom has always told you to stay away from the abandonded house a few streets away, 
-but you and your friend think it would be a good idea to sneak out at nigth and go explore the 
-house. In the past kids have gone there and not made it out alive and since that has happened 
-the cops have to moitor the house, so they have an alarm on the front door. 
+    <value>Your mom has always told you to stay away from the abandonded
+house a few streets away, but you and your friend think it would be 
+a good idea to sneak out at nigth and go explore the 
+house. In the past kids have gone there and not made it out 
+alive and since that has happened the cops have to moitor the house, 
+so they have an alarm on the front door. 
 Do you and your friend risk it all and go to the hosue? Click 'PLAY' to start
 
 </value>

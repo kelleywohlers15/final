@@ -22,5 +22,11 @@ namespace AbandonedHouse
             new DecidingToLeave().Show();
             this.Visible = false;
         }
+
+        private void btn_basement_Click(object sender, EventArgs e)
+        {
+            new theEnding().Show();
+            this.Visible = false;
+        }
     }
 }
