@@ -104,6 +104,14 @@
     <Compile Include="theEnding.Designer.cs">
       <DependentUpon>theEnding.cs</DependentUpon>
     </Compile>
+
+    <Compile Include="youWon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="youWon.Designer.cs">
+      <DependentUpon>youWon.cs</DependentUpon>
+    </Compile>
+
     <EmbeddedResource Include="DecidingToLeave.resx">
       <DependentUpon>DecidingToLeave.cs</DependentUpon>
     </EmbeddedResource>
@@ -147,6 +155,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="theEnding.resx">
       <DependentUpon>theEnding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="youWon.resx">
+      <DependentUpon>youWon.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="bin\Debug\AbandonedHouse.exe.config" />
     <None Include="obj\Debug\AbandonedHouse.csproj.CoreCompileInputs.cache" />

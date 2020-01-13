@@ -25,7 +25,8 @@ namespace AbandonedHouse
 
         private void btn_Split_Click(object sender, EventArgs e)
         {
-
+            new theEnding().Show();
+            this.Visible = false;
         }
 
         private void lbl_PhoneLight_Click(object sender, EventArgs e)
