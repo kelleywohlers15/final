@@ -35,7 +35,7 @@
             // 
             // btn_Stay
             // 
-            this.btn_Stay.Location = new System.Drawing.Point(437, 264);
+            this.btn_Stay.Location = new System.Drawing.Point(215, 222);
             this.btn_Stay.Name = "btn_Stay";
             this.btn_Stay.Size = new System.Drawing.Size(112, 70);
             this.btn_Stay.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             // btn_Split
             // 
-            this.btn_Split.Location = new System.Drawing.Point(220, 264);
+            this.btn_Split.Location = new System.Drawing.Point(64, 216);
             this.btn_Split.Name = "btn_Split";
             this.btn_Split.Size = new System.Drawing.Size(98, 76);
             this.btn_Split.TabIndex = 1;
@@ -56,7 +56,7 @@
             // lbl_PhoneLight
             // 
             this.lbl_PhoneLight.AutoSize = true;
-            this.lbl_PhoneLight.Location = new System.Drawing.Point(359, 152);
+            this.lbl_PhoneLight.Location = new System.Drawing.Point(73, 127);
             this.lbl_PhoneLight.Name = "lbl_PhoneLight";
             this.lbl_PhoneLight.Size = new System.Drawing.Size(215, 13);
             this.lbl_PhoneLight.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(491, 450);
             this.Controls.Add(this.lbl_PhoneLight);
             this.Controls.Add(this.btn_Split);
             this.Controls.Add(this.btn_Stay);

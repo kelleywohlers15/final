@@ -10,22 +10,26 @@ using System.Windows.Forms;
 
 namespace AbandonedHouse
 {
-    public partial class DecidingToLeave : Form
+    public partial class youWon : Form
     {
-        public DecidingToLeave()
+        public youWon()
         {
             InitializeComponent();
         }
 
-        private void btn_Talk_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            new theEnding().Show();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
             this.Visible = false;
         }
 
-        private void btn_Run_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            new youWon().Show();
+            new start().Show();
             this.Visible = false;
         }
     }
