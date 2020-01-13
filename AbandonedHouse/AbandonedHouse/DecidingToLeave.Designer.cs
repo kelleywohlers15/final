@@ -52,6 +52,7 @@
             this.btn_Run.TabIndex = 4;
             this.btn_Run.Text = "Leave and run home.";
             this.btn_Run.UseVisualStyleBackColor = true;
+            this.btn_Run.Click += new System.EventHandler(this.btn_Run_Click);
             // 
             // btn_Talk
             // 

@@ -22,5 +22,11 @@ namespace AbandonedHouse
             new theEnding().Show();
             this.Visible = false;
         }
+
+        private void btn_Run_Click(object sender, EventArgs e)
+        {
+            new youWon().Show();
+            this.Visible = false;
+        }
     }
 }
