@@ -28,5 +28,10 @@ namespace AbandonedHouse
             new theEnding().Show();
             this.Visible = false;
         }
+
+        private void lbl_PhoneLight_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
