@@ -35,27 +35,30 @@
             // 
             // btn_escaping
             // 
+            this.btn_escaping.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btn_escaping.Location = new System.Drawing.Point(97, 238);
             this.btn_escaping.Name = "btn_escaping";
             this.btn_escaping.Size = new System.Drawing.Size(174, 23);
             this.btn_escaping.TabIndex = 1;
             this.btn_escaping.Text = "Through Window ";
-            this.btn_escaping.UseVisualStyleBackColor = true;
+            this.btn_escaping.UseVisualStyleBackColor = false;
             this.btn_escaping.Click += new System.EventHandler(this.btn_escaping_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.button2.Location = new System.Drawing.Point(313, 238);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(165, 23);
             this.button2.TabIndex = 2;
             this.button2.Text = "Through front door ";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label1.Location = new System.Drawing.Point(79, 120);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(434, 13);
@@ -67,7 +70,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(593, 450);
+            this.BackgroundImage = global::AbandonedHouse.Properties.Resources.LocationInHouse;
+            this.ClientSize = new System.Drawing.Size(699, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btn_escaping);

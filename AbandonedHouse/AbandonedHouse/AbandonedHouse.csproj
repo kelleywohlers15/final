@@ -104,12 +104,14 @@
     <Compile Include="theEnding.Designer.cs">
       <DependentUpon>theEnding.cs</DependentUpon>
     </Compile>
+
     <Compile Include="youWon.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="youWon.Designer.cs">
       <DependentUpon>youWon.cs</DependentUpon>
     </Compile>
+
     <EmbeddedResource Include="DecidingToLeave.resx">
       <DependentUpon>DecidingToLeave.cs</DependentUpon>
     </EmbeddedResource>
@@ -146,6 +148,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SearchingForLight.resx">
       <DependentUpon>SearchingForLight.cs</DependentUpon>
@@ -180,6 +183,9 @@
     <Content Include="obj\Debug\AbandonedHouse.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\AbandonedHouse.exe" />
     <Content Include="obj\Debug\AbandonedHouse.pdb" />
+    <None Include="Resources\Abondoned1.jpg" />
+    <None Include="Resources\Abondoned.jpg" />
+    <None Include="Resources\LocationInHouse.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />
