@@ -27,5 +27,10 @@ namespace AbandonedHouse
         {
 
         }
+
+        private void lbl_PhoneLight_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

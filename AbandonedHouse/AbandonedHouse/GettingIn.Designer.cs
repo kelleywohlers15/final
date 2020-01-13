@@ -36,6 +36,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label1.Location = new System.Drawing.Point(88, 180);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(373, 45);
@@ -45,28 +46,31 @@
             // 
             // btn_GettingIn
             // 
+            this.btn_GettingIn.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btn_GettingIn.Location = new System.Drawing.Point(80, 273);
             this.btn_GettingIn.Name = "btn_GettingIn";
             this.btn_GettingIn.Size = new System.Drawing.Size(154, 27);
             this.btn_GettingIn.TabIndex = 1;
             this.btn_GettingIn.Text = "Back Window";
-            this.btn_GettingIn.UseVisualStyleBackColor = true;
+            this.btn_GettingIn.UseVisualStyleBackColor = false;
             this.btn_GettingIn.Click += new System.EventHandler(this.btn_GettingIn_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.button2.Location = new System.Drawing.Point(290, 273);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(138, 27);
             this.button2.TabIndex = 2;
             this.button2.Text = "Front Door";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // GettingIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::AbandonedHouse.Properties.Resources.LocationInHouse;
             this.ClientSize = new System.Drawing.Size(543, 519);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btn_GettingIn);
