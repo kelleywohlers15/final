@@ -73,7 +73,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::AbandonedHouse.Properties.Resources.LocationInHouse;
-            this.ClientSize = new System.Drawing.Size(685, 450);
+            this.ClientSize = new System.Drawing.Size(661, 450);
             this.Controls.Add(this.lbl_Footsteps);
             this.Controls.Add(this.btn_Run);
             this.Controls.Add(this.btn_Talk);
