@@ -48,14 +48,13 @@
             // btn_Run
             // 
             this.btn_Run.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btn_Run.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btn_Run.ForeColor = System.Drawing.SystemColors.InfoText;
             this.btn_Run.Location = new System.Drawing.Point(434, 239);
             this.btn_Run.Name = "btn_Run";
             this.btn_Run.Size = new System.Drawing.Size(95, 62);
             this.btn_Run.TabIndex = 4;
             this.btn_Run.Text = "Leave and run home.";
-
-            this.btn_Run.UseVisualStyleBackColor = true;
+            this.btn_Run.UseVisualStyleBackColor = false;
             this.btn_Run.Click += new System.EventHandler(this.btn_Run_Click);
             // 
             // btn_Talk
